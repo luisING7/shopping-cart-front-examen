@@ -1,0 +1,29 @@
+.auth-body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .auth-card .card-body {
+    padding: 2rem;
+  }
+  
+  .auth-form input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  .auth-form button {
+    padding: 12px;
+    border-radius: 5px;
+  }
